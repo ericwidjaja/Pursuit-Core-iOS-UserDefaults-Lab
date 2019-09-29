@@ -15,6 +15,7 @@
 		DF4D244B233AD59F0033426A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4D244A233AD59F0033426A /* Assets.xcassets */; };
 		DF4D244E233AD59F0033426A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4D244C233AD59F0033426A /* LaunchScreen.storyboard */; };
 		DF4D2459233AD59F0033426A /* UserDefaultsLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D2458233AD59F0033426A /* UserDefaultsLabTests.swift */; };
+		DFF3F65E2340455800D51518 /* DetailZodiacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3F65D2340455800D51518 /* DetailZodiacViewController.swift */; };
 		DFF8ACF6233B055300470BF2 /* Horoscopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8ACF5233B055300470BF2 /* Horoscopes.swift */; };
 		DFF8ACF8233B083500470BF2 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8ACF7233B083500470BF2 /* AppError.swift */; };
 		DFF8ACFF233B092E00470BF2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF8ACFE233B092E00470BF2 /* APIManager.swift */; };
@@ -44,6 +45,7 @@
 		DF4D2454233AD59F0033426A /* UserDefaultsLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDefaultsLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4D2458233AD59F0033426A /* UserDefaultsLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsLabTests.swift; sourceTree = "<group>"; };
 		DF4D245A233AD59F0033426A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF3F65D2340455800D51518 /* DetailZodiacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailZodiacViewController.swift; sourceTree = "<group>"; };
 		DFF8ACF5233B055300470BF2 /* Horoscopes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscopes.swift; sourceTree = "<group>"; };
 		DFF8ACF7233B083500470BF2 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		DFF8ACFE233B092E00470BF2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				DF4D2442233AD59D0033426A /* FirstViewController.swift */,
+				DFF3F65D2340455800D51518 /* DetailZodiacViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				DFF8ACF8233B083500470BF2 /* AppError.swift in Sources */,
 				DF4D2449233AD59D0033426A /* UserDefaultsLab.xcdatamodeld in Sources */,
 				DFF8AD01233B0AC200470BF2 /* NetworkManager.swift in Sources */,
+				DFF3F65E2340455800D51518 /* DetailZodiacViewController.swift in Sources */,
 				DF4D2441233AD59D0033426A /* SceneDelegate.swift in Sources */,
 				DFF8ACF6233B055300470BF2 /* Horoscopes.swift in Sources */,
 				DFF8ACFF233B092E00470BF2 /* APIManager.swift in Sources */,
